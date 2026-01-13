@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>My Task Manager</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter task" oninput="checkInput()">
+    <button id="addBtn" onclick="addTask()" disabled>Add Task</button>
+
+    <ul id="taskList"></ul>
+
+    <p id="totalTasks">Total Tasks: 0</p>
+    <p id="completedTasks">Completed Tasks: 0</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
